@@ -1,7 +1,6 @@
 import random
 from utils import get_timed_menu_choice
  
- 
 QUESTIONS_PER_QUIZ = 10
 QUESTION_TIME_LIMIT_SECONDS = 15
  
