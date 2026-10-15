@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f6fb">
+    <title>QuizIn — Learn something new</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header class="topbar">
+        <a class="brand" href="/" aria-label="QuizIn home">
+            <span class="brand-mark">Q</span>
+            <span>quiz<span class="brand-accent">in</span></span>
+        </a>
+        <nav class="top-nav" aria-label="Main navigation">
+            <button class="nav-link active" id="home-nav">Home</button>
+            <button class="nav-link" id="leaderboard-nav">Leaderboard</button>
+        </nav>
+        <span class="top-note"><span class="live-dot"></span> Ready when you are</span>
+    </header>
+
+    <main id="app" class="page-shell">
+        <div class="loading">Getting your quiz ready…</div>
+    </main>
+
+    <footer class="site-footer">
+        <span>QuizIn</span>
+        <span>Curiosity looks good on you.</span>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="/static/app.js" defer></script>
+</body>
+</html>
